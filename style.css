@@ -10,20 +10,20 @@
 .container{
     min-height: 100vh;
     width: 100%;
-    display : flex;
-    background-image: url(img.jpg);
+    /* display : flex; */
+    background-image: url(img4.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .navlist{
-    display: flex;
+    width: 100%;
+    display: flex; 
     gap : 5rem;
     /* background-color :burlywood; */
-    height: 15vh;
+    height: 7vh;
     justify-content: center;
     align-items:  center;
-    width: 100%;
     position: fixed;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .left h1,h2{
-    color: black;
+    color: white;
 }
 
 .text{
@@ -81,8 +81,21 @@
     text-decoration: underline;
 }
 
-about me{
-    height: 100vh;
+#about-me{
+    min-height: 100vh;
     width: 100%;
-    background-color: #c50909;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 10rem;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img5.png);
+    /* background-size: cover; */
+    /* background-position: center; */
+    background-repeat: repeat-y;
+    text-align: center;
+}
+
+#about-me p,h2{
+    color: white;
 }
