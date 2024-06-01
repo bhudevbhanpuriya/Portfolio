@@ -18,7 +18,7 @@
 
 .navlist{
     display: flex;
-    gap : 3.5rem;
+    gap : 5rem;
     /* background-color :burlywood; */
     height: 15vh;
     justify-content: center;
@@ -37,6 +37,7 @@
     color: white;
     text-decoration: none;
     transition: text-decoration 1 ease;
+    gap: 7rem;
 }
 
 .navlist li a:hover{
@@ -53,6 +54,10 @@
     justify-content: center;
 }
 
+.left h1,h2{
+    color: black;
+}
+
 .text{
     font-size: 30px;
     align-items: center;
@@ -60,7 +65,7 @@
 }
 
 .hover-span{
-    background: linear-gradient(to right, #2f06fe, #c50909);
+    background: linear-gradient(to right, #06b4fe, #c50909);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     text-shadow: none;
